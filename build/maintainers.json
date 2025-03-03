@@ -2457,6 +2457,9 @@
     "7Wate",
     "a180285"
   ],
+  "/forklog/news": [
+    "raven428"
+  ],
   "/fortnite/news/:options?": [
     "lyqluis"
   ],
@@ -7222,6 +7225,9 @@
   ],
   "/topys/:keyword?": [
     "nczitzk"
+  ],
+  "/toranoana/news/:category?": [
+    "Tsuyumi25"
   ],
   "/toutiao/user/token/:token": [
     "TonyRL"

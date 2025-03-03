@@ -12144,6 +12144,19 @@
       }
     ]
   },
+  "forklog.com": {
+    "_name": "Forklog",
+    ".": [
+      {
+        "title": "Новости",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/news"
+        ],
+        "target": "/forklog/news"
+      }
+    ]
+  },
   "fortunechina.com": {
     "_name": "财富中文网",
     ".": [
@@ -33931,6 +33944,43 @@
           "/"
         ],
         "target": "/topys/:keyword?"
+      }
+    ]
+  },
+  "toranoana.jp": {
+    "_name": "とらのあな",
+    "news": [
+      {
+        "title": "総合新着記事",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/toranoana/news"
+      },
+      {
+        "title": "女性向け",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/joshi"
+        ],
+        "target": "/toranoana/news/joshi"
+      },
+      {
+        "title": "イラスト展",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/exhibitions"
+        ],
+        "target": "/toranoana/news/exhibition"
+      },
+      {
+        "title": "Category",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/category/:category"
+        ],
+        "target": "/toranoana/news/:category"
       }
     ]
   },
